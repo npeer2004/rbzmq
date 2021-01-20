@@ -9,6 +9,5 @@ Gem::Specification.new do |s|
   s.summary = 'Ruby API for ZeroMQ'
   s.extensions = 'extconf.rb'
   s.files = Dir['Makefile'] + Dir['*.c']
-  s.has_rdoc = true
   s.extra_rdoc_files = Dir['*.c']
 end
